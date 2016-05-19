@@ -1,0 +1,19 @@
+{
+  "name": "extract-text-webpack-plugin-one-pass-loader",
+  "version": "0.1.0",
+  "description": "make extract-text-webpack-plugin to one-pass.",
+  "keywords": ["webpack", "webpack-loader", "extract-text-webpack-plugin"],
+  "homepage": "https://github.com/robario/extract-text-webpack-plugin-one-pass-loader#readme",
+  "bugs": "https://github.com/robario/extract-text-webpack-plugin-one-pass-loader/issues",
+  "license": "MIT",
+  "author": "Hironori Yoshida <webmaster@robario.com> (https://www.robario.com/)",
+  "repository": "robario/extract-text-webpack-plugin-one-pass-loader",
+  "scripts": {
+    "test": "webpack-dev-server --config ./www/webpack.config.js --content-base ./www"
+  },
+  "devDependencies": {
+    "css-loader": "*",
+    "extract-text-webpack-plugin": "*",
+    "webpack-dev-server": "*"
+  }
+}
